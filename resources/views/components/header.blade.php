@@ -1,5 +1,5 @@
 <div class="stacco-sopra"></div>
-<div class="container d-flex justify-content-center align-items-center ">
+<div class="container d-flex justify-content-between align-items-center ">
 
     <div class="logo-section">
         
@@ -44,7 +44,7 @@
 
 </div> 
 <div>
-    <section>
+    <div class="jumbo">
         <img src="{{ Vite::asset('resources/img/jumbotron.jpg')}}" >
-    </section>
+    </div class="jumbo">
 </div>

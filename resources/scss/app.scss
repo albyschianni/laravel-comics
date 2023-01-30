@@ -45,7 +45,7 @@ header {
     }
 }
 
-section {
+.jumbo {
     height: 400px;
 
     img{
@@ -54,4 +54,15 @@ section {
         object-fit: cover;
         object-position: 20% 0;
     }
+}
+
+.my-b-home {
+    background-color: #1c1c1c ;
+    height: 800px;
+    padding-top: 40px;
+}
+.my-card {
+    width: calc((100% / 6) - 30px);
+    margin: 10px;
+    background-color: azure;
 }
